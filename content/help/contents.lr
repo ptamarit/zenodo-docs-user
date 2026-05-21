@@ -76,6 +76,17 @@ body:
 title: Docs
 ----
 body:
+
+<div class="row" style="margin-bottom:20px;">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 text-center">
+
+        <pagefind-searchbox placeholder="Search Docs and Guides...">Search widget</pagefind-searchbox>
+
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
 ----
 menu: /help/docs
 

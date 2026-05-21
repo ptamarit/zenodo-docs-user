@@ -39,6 +39,15 @@ the following command and open
 $ lektor server
 ```
 
+#### Documentation search with Pagefind
+
+In order to test the documentation search functionality, install the `pagefind[extended]` package and run the following commands:
+
+```console
+$ lektor build
+$ python -m pagefind --site "$(lektor project-info --output-path)" --serve
+```
+
 ### Contributing
 
 Contributions are welcome, and they are greatly appreciated! Every little bit

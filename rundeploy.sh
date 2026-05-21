@@ -41,6 +41,7 @@ ssh-add -D
 ssh-add - <<< "${HELP_SSH_PRIVATE_KEY}"
 lektor clean --yes
 lektor build
+python -m pagefind --site "$(lektor project-info --output-path)"
 ls -l
 lektor deploy ghpageshelp
 rm content
